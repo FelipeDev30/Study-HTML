@@ -1,0 +1,88 @@
+ /* Estilos gerais */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+/* Estilos para a seção de cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover{
+    color: rgba(255, 0, 0, 0.555);
+    font-size: 18px;
+}
+
+/* Estilos para a seção de artigos */
+article {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+.post {
+    margin-bottom: 20px;
+}
+.post h2 {
+    color: #333;
+}
+.post p {
+    color: #666;
+}
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para a barra lateral */
+aside {
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+aside h3 {
+    margin-top: 0;
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+aside li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}

@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu primeiro site!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Blog Responsivo</title>
+
 </head>
 <body>
     <header>
-        <h1>Felipe Lamas</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ea, praesentium nemo, labore impedit natus saepe accusantium repellendus corrupti assumenda mollitia veniam consequatur, 
-            eum id sapiente eos aspernatur. Natus, autem deserunt.
-        </p>
+        <h1>Meu Blog</h1>
     </header>
-    <nav class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
     </nav>
-    <section class="section" id="home">
-        <article>
-            <h2>Técnologia no dia-a-dia!</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Maiores quo dolorum nobis, placeat, 
-                voluptate soluta doloremque repudiandae maxime eaque 
-                fuga dignissimos obcaecati nesciunt architecto cum provident perspiciatis! Itaque, minus incidunt.
-            </p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Eius blanditiis maxime ut debitis provident ad exercitationem. Suscipit corrupti sunt corporis, 
-                exercitationem eius numquam ipsa inventore vitae consequuntur blanditiis harum dolore.
-            </p>
-        </article>
-    </section>
+
+    <div class="container">
+        <section class="main">
+            <article class="post">
+                <h2>Título do Artigo 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis eget nulla ullamcorper commodo. Sed euismod dolor nec tempus sagittis.</p>
+                <img src="blog-post1.jpg" alt="Imagem do Artigo 1">
+            </article>
+
+            <article class="post">
+                <h2>Título do Artigo 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis eget nulla ullamcorper commodo. Sed euismod dolor nec tempus sagittis.</p>
+                <img src="blog-post2.jpg" alt="Imagem do Artigo 2">
+            </article>
+        </section>
+
+        <aside>
+            <h3>Posts Recentes</h3>
+            <ul>
+                <li><a href="#">Título do Artigo 3</a></li>
+                <li><a href="#">Título do Artigo 4</a></li>
+                <li><a href="#">Título do Artigo 5</a></li>
+            </ul>
+        </aside>
+    </div>
+
     <footer>
-        <p>Feito por Felipe Lamas</p>
+        <p>&copy; 2024 Meu Blog</p>
     </footer>
 </body>
-</html> 
+</html>
