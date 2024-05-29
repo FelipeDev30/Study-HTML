@@ -89,3 +89,8 @@ footer {
     text-align: center;
     color: #fff;
 }
+
+.linha {
+    color: rgba(0, 0, 0, 0.425);
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
