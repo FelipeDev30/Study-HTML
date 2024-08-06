@@ -1,0 +1,8 @@
+table tr:nth-child(even) {
+    background-color: azure;
+}
+
+table tr:hover td{
+    background-color: darkgray;
+    transition: 0.2s ease-in-out;
+}
