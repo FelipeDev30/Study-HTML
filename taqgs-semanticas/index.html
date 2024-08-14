@@ -1,0 +1,70 @@
+<!DOCTYPE html><!-- Identifica o tipo de documento para o navegador -->
+<html lang="pt-br"><!-- Tag ROOT -->
+<head><!-- Cabeça da página (Configuração - metadados) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yags HTML5 Estrutural</title>
+</head>
+<body><!-- Corpo da página (Conteúdo visivel) -->
+    <header><!-- Cabeçalho da Página -->
+        <h1>Minha Página Semântica</h1>
+        <nav><!-- Menu de Navegação da Página -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content_principal"><!-- Conteúdo Principal da Página -->
+        <section class="section" id="home"><!-- Sessões de informações para o conteúdo -->
+            <article class="artigo_home">
+                <h1>Porque aprender programação?</h1>
+                <p>
+                    Aprender programação nos dias de hoje é essencial por várias razões. 
+                    Primeiramente, a programação permite a automação de tarefas repetitivas, 
+                    aumentando a eficiência e economizando tempo e recursos. 
+                    Além disso, ela é uma ferramenta poderosa para a inovação e criatividade, 
+                    permitindo a criação de aplicativos, 
+                    jogos e outras soluções tecnológicas que melhoram nossa qualidade de vida.
+                </p>
+<!--            <figure> - Container para imagens
+                    <img src="clinica.jpg" width="400" alt="Doutor sorrinho por ter a tecnologia necessária para auxiliar">
+                    <figcaption>Imagem que demonstra a necessida da tecnologia no dia-a-dia</figcaption> - Descrição da imagem
+                </figure> -->
+                <picture>
+                    <source srcset="clinica-small.jpg" media="(min-width: 600px)">
+                    <img src="clinica.jpg" width="400" alt="Doutor feliz após usar tecnologia como ajuda em seu trabalho">
+
+                </picture>
+                <article class="artigo_home">
+                    <h2>O que é programação?</h2>
+                    <p>
+                        A programação também desenvolve habilidades de resolução de problemas e pensamento lógico, 
+                        que são valiosas em diversas áreas da vida2. No mercado de trabalho, 
+                        a demanda por profissionais com habilidades em programação é alta, 
+                        o que aumenta as chances de empregabilidade e abre portas para diversas carreiras
+                    </p>
+                </article>
+            </article>
+        </section>
+        <section class="section" id="about">
+
+        </section>
+        <section class="section" id="services">
+
+        </section>
+        <section class="section" id="contact">
+
+        </section>
+        <aside class="others"><!-- Conteúdo que não tem a necessidade de se relacionar com o conteúdo principal da página -->
+
+        </aside>
+    </main>
+    <footer><!-- Rodapé da página -->
+
+    </footer>
+</body>
+</html>

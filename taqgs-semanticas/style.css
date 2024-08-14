@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+h1, h2, h3 h4, h5, h6, p, span {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin: 20px;
+    
+}
+
+header h1{
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgb(105, 100, 100));
+    height: 40px;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+nav ul li{
+    padding-top: 5px;
+}
+figcaption {
+    color: white;
+}
+
+.artigo_home h1, h2, p{
+    margin: 10px;
+}
+
+nav ul li a{
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(180, 176, 176);
+}
+nav a:hover{
+    color: rgba(207, 186, 161, 0.61);
+    border-radius: 10px;
+    padding: 10%;
+    background-color: rgb(239, 239, 241);
+    color: black;
+}
