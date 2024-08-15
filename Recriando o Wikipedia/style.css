@@ -60,3 +60,20 @@ footer {
     color: black;
 }
 
+.artigo a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.artigo a:hover {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.artigo {
+    display: flex;
+    flex-direction: column;
+}
